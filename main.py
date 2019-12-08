@@ -64,7 +64,7 @@ while True:
 		clf2.fit(train_inputs, train_outputs)
 		print("******************* DECISION TREE CLASSIFIER *****************************\n")
 
-		print("\tPredicted Result Decition Tree \t|\tCorrect Result\t")
+		print("\tPredicted Result\t|\tCorrect Result\t")
 		nb_tests = 9
 		correct_predictions_count = 0.0
 		for i in range(0, nb_tests):
@@ -142,4 +142,4 @@ while True:
 		print("Accuracy with SVM Classifier:  %.2f%%" % (correct_predictions_count / nb_tests * 100.0))
 ##### End of SVM Classifier #####
 	else:
-		print("Invalid Input!!! Try Again")
+		print("\nInvalid Input!!! Try Again")
